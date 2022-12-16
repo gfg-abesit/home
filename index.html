@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG Student Chapter | ABESIT</title>
+    
+    <script src="https://kit.fontawesome.com/20aa92e9f6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io/index.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io/index.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Loading screen -->
+
+    <!-- Top of the page -->
+    <div id="top-loc"></div>
+
+    <!-- Menu bar -->
+    <nav id="navbar-wrap">
+        <!-- Desktop Menu -->
+        <div id="navbar">
+            <div data-aos="fade-down" id="logo" class="reverse">
+                <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                </div>
+                <div class="logo"><img
+                        src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png">
+                </div>
+            </div>
+            <div id="links" data-aos="fade-down">
+                <a href="#top-loc">Home</a>
+                <a href="#events-loc">Events</a>
+                <a href="#team-loc">Team</a>
+                <a href="#social-media-loc">Social Media</a>
+                <a href="#contact-us-loc">Contact Us</a>
+            </div>
+        </div>
+
+
+        <!-- Mobile Menu -->
+        <div id="mySidenav" class="sidenav">
+            <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#top-loc">About Us</a>
+            <a href="#events-loc">Events</a>
+            <a href="#team-loc">Team</a>
+            <a href="#social-media-loc">Social Media</a>
+            <a href="#contact-us-loc">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Header section -->
+    <section id="about-us-loc" class="section-body">
+        <div id="header-wrap">
+            <div id="header-text" data-aos="fade-up" data-aos-delay="300">
+                <div id="bonjour">Hola, GEEKS!!👋</div>
+                <div id="welcome">Welcome to <span id="geeksforgeeks">GeeksforGeeks</span> Student Chapter
+                    ABES Institute Of Technology
+                </div>
+                <div id="description">At GFG Student Chapter ABES Institute Of Technology, we believe in community driven efforts. It is a
+                    place where
+                    developers,
+                    designers, machine learning enthusiasts, technical content writers come under one roof to learn and
+                    grow
+                    together by reaching out to the community.
+
+                </div>
+            </div>
+            <div id="header-img" data-aos="fade-up">
+                <img src="./Assets/banner.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Now -->
+
+    <section id="events-loc" class="swiper-body">
+        <div data-aos="flip-up">
+            <img id="events-head-img"
+                src="./Assets/register.png">
+        </div>
+        <div class="current" data-aos="fade-up">
+            <a class="reg-link" target="_blank" href="https://tally.so/r/3NqMeb"><p class="blink"> Click Here to Register </p></a>
+
+            <img class="current-event" src="./Assets/Events/QandA.jpeg" alt="aa">
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Past events section -->
+    <section id="events-loc" class="swiper-body">
+        <div data-aos="flip-up">
+            <img id="events-head-img"
+                src="./Assets/past-events.webp">
+        </div>
+        <div class="swiper mySwiper" data-aos="fade-up">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./Assets/Events/Evnt-AutoRun.webp"></div>
+                <div class="swiper-slide"><img src="./Assets/Events/innaugral.jfif"></div>
+                <div class="swiper-slide"><img src="./Assets/Events/soon.png"></div>
+                <div class="swiper-slide"><img src="./Assets/Events/Evnt-AutoRun.webp"></div>
+                <div class="swiper-slide"><img src="./Assets/Events/innaugral.jfif"></div>
+                <div class="swiper-slide"><img src="./Assets/Events/soon.png"></div>
+
+
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Our core team section -->
+    <section id="team-loc" class="section-body">
+        <div>
+            <div class="our-team-head" data-aos="fade-down"><span>Our</span> Core Team</div>
+
+            <div class="team-members" data-aos="fade-up">
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Avneesh.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Avneesh Giri</h3>
+                        <h4 class="title">Chapter Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="https://www.linkedin.com/in/avneesh-giri/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                        <li><a href="https://www.instagram.com/__avneeshgiri__/" class="fa fa-instagram" aria-hidden="true"></a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnqtctDCTrWDJZqjXkHJPHQNQKWZXSsMrjgTvSHQbJRCjQnrgzmCHsCrfbQBJJLMdMkHL" class="fa fa-envelope-o" aria-hidden="true"></a></li>
+                        <li><a href="https://github.com/Digitalastra" class="fa fa-github" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Atul.jfif">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Atul Rajput</h3>
+                        <h4 class="title">Chapter co-lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="https://www.linkedin.com/in/guptayash007" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                        <li><a href="https://github.com/conqryash007" class="fa fa-github" aria-hidden="true"></a></li>
+                        <li><a href="https://www.instagram.com/conqryash007" class="fa fa-instagram" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Kanishk.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Kanishak Chaurasia</h3>
+                        <h4 class="title">Technical Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://linkedin.com/in/kanishak-chaurasia-1101" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kanishak11-cyber" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/kanishak_chaurasia" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Anshuta.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Anshuta Gupta</h3>
+                        <h4 class="title">Technical Co-Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/anshuta-gupta2105" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Anshuta-Gupta" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/anshuta_gupta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Aparna.jfif">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Aparna Jha</h3>
+                        <h4 class="title">Content Writer</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/guptayash007" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/conqryash007" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/conqryash007" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Wilson.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Wilson Daniel</h3>
+                        <h4 class="title">Design & Branding Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/wilson-daniel-06290b1b1" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Wilson-Daniel" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/wilson__10_/" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/Gargi.jfif">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Gargi Tiwari</h3>
+                        <h4 class="title">Event Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/gargi-tiwari-183989202" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Gargi-Tiwari" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/gar.gi_tiwa.ri" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/tanya.jfif">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Tanya Sharma</h3>
+                        <h4 class="title">Marketing Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/tanya-sharma-12a4b81ab" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tanyasharmaa" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/tanyashaxma/" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="./Assets/team/sadgi.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Saadgi Singhal</h3>
+                        <h4 class="title">Public Relations Lead</h4>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/saadgi-singhal-9884b1221/" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SaadgiSinghal" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/saadgisinghal/" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </section>
+
+        <!-- Members -->
+
+        <section id="team-loc" class="section-body">
+            <div>
+                <div class="our-team-head" data-aos="fade-down"><span>Our</span> Members </div>
+    
+                <div class="team-members" data-aos="fade-up">
+
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="./Assets/team/keshav.jfif">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Keshav Malik</h3>
+                            <h4 class="title"> Member </h4>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/keshavmalik/" class="fa fa-linkedin" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/keshav-0907" class="fa fa-github" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_keshav_malik" class="fa fa-instagram" aria-hidden="true"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="./Assets/team/Anamta.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Anamta Rehman</h3>
+                            <h4 class="title"> Member </h4>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/anamtarehman" class="fa fa-linkedin" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AnamtaRehman" class="fa fa-github" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/anamta_rehmann" class="fa fa-instagram" aria-hidden="true"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="./Assets/team/ishita.jfif">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Ishita Malik</h3>
+                            <h4 class="title"> Member </h4>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/ishita-malik-96514b248/" class="fa fa-linkedin" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ishita8839" class="fa fa-github" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_ishita__malik/" class="fa fa-instagram" aria-hidden="true"></a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+    <!-- Social media section -->
+    <section id="social-media-loc" class="socials-body">
+        <div id="socials-wrap">
+            <div id="socials-img" data-aos="flip-up">
+                <img src="./Assets/social-media-shadow.webp">
+            </div>
+            <div class="social-item-wrap">
+                <div data-aos="zoom-in-down">
+                    <a target="_blank" href="https://www.instagram.com/_geeksforgeeks_abesit_/">
+                        <div class="social-item"><i
+                                class="fa-fw fa-brands fa-instagram fa-1x"></i><span>Instagram</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://discord.gg/ydbSCmFa">
+                        <div class="social-item"><i class="fa-fw fa-brands fa-discord fa-1x"></i><span>Discord</span>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="zoom-in-up">
+                    <a target="_blank" href="https://www.linkedin.com/in/geeksforgeeks-abesit-11a89224a/">
+                        <div class="social-item"><i
+                                class="fa-fw fa-brands fa-linkedin-in fa-1x"></i><span>LinkedIn</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://github.com/gfg-abesit">
+                        <div class="social-item"><i class="fa-fw fa-brands fa-github fa-1x"></i><span>Github</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact us section -->
+    <section id="contact-us-loc" class="contact-body">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeprgnVN510alMlCY2Bm2OXQf5E2FILmzO7kLb3l12pSkMbTg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer-body">
+            <div>Made with <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 1s;"></i> by</div>
+            <h5> Keshav Malik & Team</h5>
+    </section>
+</body>
+
+</html>
